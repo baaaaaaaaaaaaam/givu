@@ -1,0 +1,137 @@
+/*
+css 기본 정보 
+1. 아무것도안쓰인 form , table 은 태그에 적용한다
+2. #nav 는 id에 적용하는 것 , #nav a 는 id가 nav인 태그안에 a태그에 적용할 css
+3. . 을 붙이면 클래스에 적용할 수 있음 
+*/
+
+.empty_padding{
+    height: 100px;
+}
+
+form {
+    width: 500px;
+}
+table {
+    width: 1200px;
+    font-size: small;
+    border-collapse:collapse;
+    margin-bottom: 10px;
+}
+th, td {
+    padding: 3px 10px;
+}
+.off-screen {
+    display: none;
+}
+#nav {
+    width: 500px;
+    text-align: center;
+}
+#nav a {
+    display: inline-block;
+    padding: 3px 5px;
+    margin-right: 10px;
+    font-family:Tahoma;
+    background: #ccc;
+    color: #000;
+    text-decoration: none;
+}
+#nav a.active {
+    background: #333;
+    color: #fff;
+}
+tr,th {
+    color: rgb(139, 9, 245);
+    
+}
+tr, td {
+    color: rgb(65, 19, 19);
+    font-weight: 700;
+    height: 30px;
+}
+#table_id {
+    width: 100px;
+}
+
+#table_purpose {
+    width: 100px;
+}
+#table_money {
+    width: 100px;
+}
+#table_channel {
+    width: 150px;
+}
+#table_time {
+    width: 250px;
+}
+#table_txid {
+ 
+}
+
+
+
+/*
+페이징 표시 설정 
+*/
+.pagination a {
+    display:inline-block;
+    margin-right:20px;
+    cursor:pointer;
+}
+/*
+클릭한 페이징 번호 빨간색으로 표시 
+*/
+.pagination a , .active{
+    font-weight: 1100;
+    color: rgb(255, 5, 5);
+}
+
+/* li , .left_padding {
+    width: 500px;
+} */
+
+#jb-sidebar-left {
+    width: 300px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    /* border: 1px solid #bcbcbc; */
+  }
+#jb-center {
+    width:1100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: left;
+    /* border: 1px solid #bcbcbc; */
+  }
+#jb-sidebar-right {
+    width: 300px;
+    padding: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    float: right;
+    /* border: 1px solid #bcbcbc; */
+  }
+
+#jb-container-400{
+      
+      height: 400px;
+  }
+
+#jb-container-40{
+      
+    height: 40px;
+}
+.jb-center-text {
+    margin-left: 350px;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* border: 1px solid #bcbcbc; */
+  }
+
+.jb-120 {
+    width: 150px;
+}
