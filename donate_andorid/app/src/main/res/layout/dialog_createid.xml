@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="회원가입"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:maxLength="10"
+        android:textSize="16dp"
+        android:singleLine="true"
+        android:hint="아이디를 입력하세요"/>
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:maxLength="10"
+        android:textSize="16dp"
+        android:password="true"
+        android:singleLine="true"
+        android:hint="비밀번호를 입력하세요"/>
+    <EditText
+        android:id="@+id/check_pw"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:maxLength="10"
+        android:textSize="16dp"
+        android:password="true"
+        android:singleLine="true"
+        android:hint="비밀번호를 확인하세요"/>
+
+    <LinearLayout
+
+       android:layout_width="match_parent"
+       android:layout_height="50dp">
+       <CheckBox
+           android:layout_marginStart="30dp"
+           android:id="@+id/checkBox1"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:checked="false"
+           android:text="일반 회원"
+           android:layout_gravity="center"
+           android:layout_weight="1"/>
+       <CheckBox
+           android:id="@+id/checkBox2"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:checked="false"
+           android:text="기부 단체"
+           android:layout_gravity="center"
+           android:layout_weight="1"/>
+       <CheckBox
+           android:id="@+id/checkBox3"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:checked="false"
+           android:text="수혜자"
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:layout_marginEnd="30dp"
+           />
+   </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="등록"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:background="#ffffff"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="취소"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:id="@+id/profile"
+            android:src="@drawable/default_image"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <TextView
+            android:id="@+id/writer"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:hint="input your id"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/touch_ll"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="0.6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/donate"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="이번 공모는 누구를도울까요"
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <TextView
+                android:id="@+id/mission"
+                android:gravity="center_horizontal|center_vertical"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:hint="1000000원"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="0.4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/startDate"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="2020년 12월 12일"
+                android:layout_weight="0.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <TextView
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="~"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <TextView
+                android:id="@+id/endDate"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="2020년 12월 12일"
+                android:layout_weight="0.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

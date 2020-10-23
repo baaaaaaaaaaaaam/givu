@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.login.donation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+
+
+
+
+        <activity android:name=".loginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".profileActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".write_campaignAcivity" android:screenOrientation="portrait"/>
+        <activity android:name=".campaign_detail_pageActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".mypage_DonationActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".mypage_FoundatinActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".mypage_BeneficiaryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.logoutActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.mypage_Beneficiary_signupActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.bootpay.bootpayActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.write_volunteer_recruitmentActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.DaumWebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.volunteer_recruitmentActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.volunteer_recruitment_detail_pageActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.volunteer_recruitment_modified_pageActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.make_QRcodeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.write_time_campaign_signupActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.write_time_campaignActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.time_campaignActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.login.donation.time_campaign_detail_pageActivity" android:screenOrientation="portrait"/>
+
+
+
+
+        <meta-data android:name="com.kakao.sdk.AppKey" android:value="b6a4c9813f90839330b615cf680bf133"/>
+
+    </application>
+
+</manifest>
