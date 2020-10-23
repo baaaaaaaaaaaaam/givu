@@ -1,0 +1,2 @@
+Installed chaincodes on peer:
+Package ID: ledger_1.0:bf017412f20e474e9bdc15f16b7bac30a8e51818fdbe7ff4228d94b1d6131d46, Label: ledger_1.0
