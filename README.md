@@ -5,7 +5,7 @@
  
  # 서비스 소개
  
- donate_android ,donate_application_golang, donate_application_hyperledger,donate_web은 하나의 프로젝트입니다.
+
  
 이 프로젝트는 코로나가 발병한 2020년 3~4월 대기업과 유명연예인 , 일반 시민들이 코로나 지원금 기부를 약 1000억원 가까이 하였는데 , 대구 현장에 코로나 지원을 나간 간호사가 인스타에 현장 지원이 형편없다는 글과 컵라면을 찍어올린 사진을보고 관심을 가지게 되었다.
 
