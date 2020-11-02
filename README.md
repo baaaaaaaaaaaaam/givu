@@ -53,10 +53,8 @@
 
 # 스크린샷 
 
-구성도는 다음과같다
 
-![hyperledger_구성도](https://user-images.githubusercontent.com/57000871/96362968-3481e400-116c-11eb-94b3-782841532dc6.png)
-
+![image](https://user-images.githubusercontent.com/57000871/97861970-f2e66100-1d47-11eb-807b-d3ef0d95e4fc.png)
 
 
 
